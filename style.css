@@ -29,3 +29,11 @@
     text-align: left;
     width: 90%;
 }
+.btn, .btn-secondary{
+    background-color: #f8f9fa !important;
+    color: #000 !important;
+    border: 1px solid #dadce0 !important;
+}
+.btn, .btn-secondary:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1) !important;
+}
