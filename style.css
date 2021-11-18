@@ -1,0 +1,29 @@
+.content{
+    margin-top: 75px;
+}
+
+[contenteditable] {
+    outline: 0px solid transparent;
+}
+.google-logo{
+    width: 350px;
+}
+.search-bar{
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 900px;
+}
+.icon{
+    position: relative;
+    left: 15px;
+    top: 15px;
+    color: gray;
+    font-weight: 100;
+    font-size: 20px;
+}
+.input{
+    text-align: left;
+    width: 90%;
+}
