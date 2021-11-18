@@ -2,14 +2,14 @@ body{
     font-family: arial,sans-serif;
 }
 .content{
-    margin-top: 75px;
+    margin-top: 150px;
 }
 
 [contenteditable] {
     outline: 0px solid transparent;
 }
 .google-logo{
-    width: 300px;
+    width: 270px;
 }
 .search-bar{
     border: 1px solid #e3e3e3;
