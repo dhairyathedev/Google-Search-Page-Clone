@@ -37,3 +37,25 @@
 .btn, .btn-secondary:hover{
     box-shadow: 0 1px 1px rgba(0,0,0,.1) !important;
 }
+.languages{
+    display: inline-flex;
+}
+.languages ul{
+    display: flex;
+    position: relative;
+    right: 20px;
+    list-style: none;
+}
+.languagesInList a{
+    padding-right: 8px;
+    text-decoration: none;
+    color: #1a0dab;
+}
+.languagesInList a:hover{
+    padding-right: 5px;
+    text-decoration: none;
+    color: #1a0dab;
+}
+.langText{
+    color: gray;
+}
