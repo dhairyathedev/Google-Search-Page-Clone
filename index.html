@@ -34,11 +34,12 @@
                 <img src="assets/logo.png" alt="Google Logo" class="img-fluid google-logo">
                 <div class="search-bar shadow-sm mt-4">
                     <i class="fas fa-search icon"></i>
-                    <input class="input" type="text"></div>
+                    <input class="input" type="text" id="searchInput">
+                </div>
                 </div>
                 <div class="buttons"><br>
-                    <button class="gBtn">Google Search</button>
-                    <button class="gBtn">I'm Feeling Luck</button>
+                    <button class="gBtn" onclick="SearchBtn()">Google Search</button>
+                    <a href="https://www.google.com/doodles"><button class="gBtn">I'm Feeling Luck</button></a>
                 </div>
                 <div class="languages mt-4">
                     <span class="langText">Google offered in: </span>
@@ -53,5 +54,6 @@
             </div>
         </center>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
