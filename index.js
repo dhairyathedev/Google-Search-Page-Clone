@@ -7,6 +7,7 @@ function Search(event) {
     }
   }
 function SearchBtn(){
+    if(!elem.value) return;
     window.location = 'https://www.google.com/search?q=' + elem.value;
 
 }
